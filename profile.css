@@ -164,6 +164,7 @@ section {
   border-top: 1px solid var(--border-color-section);
   padding: 1% 1%;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 #navigation .nav-item:last-child {
