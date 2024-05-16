@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Noman Jafri, 'Software Developer', 'Frontend Developer', 'Backend Developer', 'Fullstack Developer','React Developer','JavaScript Developer' ,'Python Developer'">
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Noman Jafri</title>  
+    <link rel="stylesheet" href="profile.css">
+    <link rel="shortcut icon" type="image/svg" href="hire-a-helper.svg">
+  </head> 
+  <body class="light">  
+    <!-- Navigation bar complete wih brand -->
+    <section id="navigation">  
+      <a class="navbar-brand" href="#heros-section" onclick="scrollView(event)">Noman Jafri</a>
+      <div id="right-nav">  
+        <button id="open-menu" onclick="toggleMenu(event)" type="button" aria-controls="navbarToggle" aria-label="Toggle navigation">
+        ||||
+        </button>
+        <button id="close-menu" onclick="toggleMenu(event)" type="button" aria-controls="navbarToggle" aria-label="Toggle navigation">X</button>          
+        <a class="nav-item " href="#education" onclick="scrollView(event)">Education</a>
+        <a class="nav-item " href="#skills" onclick="scrollView(event)">Skills</a>                  
+        <a class="nav-item " href="#projects" onclick="scrollView(event)">Projects</a>
+        <a class="nav-item " href="#footer" onclick="scrollView(event)">Contact</a>
+        <a class="nav-item " onclick="dayNightMode(event)">
+          <img src="./moon-solid.svg" alt=" Moon symbol for night mode" />
+        </a>
+      </div>
+    </section>
+    
+    <!-- Heros Section-->
+    <section id="heros-section">
+      <div>
+        <img src="./pic.jpg" alt="Noman's Profile Picture">
+        <h2>I am Noman Jafri.</h2>
+        <h4></h4>    
+      </div>
+    </section>
+    
+    <!-- Education page -->
+    <section id="education">
+      <div>
+        <h3>Education</h3>
+        <h4>North-East Surrey College of Technology</h4>
+        <p>Level 3 Diploma in Software Development</p>
+        <br>
+
+        <h4>IBM Skills Build</h4>
+        <p>Web Development fundamentals (Jan 2024)</p>
+        <br>
+        
+      
+        <h4>Udemy Educational Service</h4> 
+        <p>Python-3 Bootcamp by Colt Steele</p>           
+        <p>The Complete Web Development Bootcamp by Angela Yu</p>           
+        <p>Linux Command Line Bootcamp by Colt Steele</p>
+        <p>JavaScript the complete guide by Maximillian</p>
+        <p>React: The Complete Guide by Maximillian</p>
+        <p>Docker & Kubernetes: The Practical Guide by Maximillian</p>
+        <p>Github Actions: The Complete Guide by Maximillian</p>
+      </div>
+    </section>
+
+    <!-- Skills page -->
+    <section id="skills">
+      <div>
+        <h3>Skills</h3>
+          <p><b>Frontend:</b> HTML5 | CSS3 | JavaScript | ReactJS|</p>
+          <p><b>Backend:</b> Python | Flask | NodeJS | ExpressJS | Rest API |</p>
+          <p><b>Testing:</b> Pytest | Jest | Postman |</p>
+          <p><b>Database:</b> SQLite | PostgreSQL | MongoDB |</p>
+          <p><b>Linux:</b> Server Setup | User | Group | Files Management |<br> Nano | Bash Scripting |</p>
+          <p><b>Docker:</b> Dockerfile | Building Image | Push & Pull Dockerhub | <br> Running & Killing containers | multi-containers workflow |<br> Docker-Compose |</p>
+          <p><b>CI / CD:</b> Github Actions | YAML | Enviroment Management | </p> 
+      </div>
+    </section> 
+
+    <!-- Projects Page -->
+    <section id="projects">
+    <div>
+      <div class="python-projects">
+        <h3>Python - Projects</h3>
+        <div class="project">      
+            <h4>
+              <a href="/blog" target="_blank">Haven Bloggers</a> 
+            </h4>
+            <p>
+              Flask, SQLAlchemy, Authentication, flask bcrypt, Flask Mail.
+            </p>
+            <p>
+              Live: <a href="/blog" target="_blank">Haven Bloggers</a>
+            </p>
+            <p>
+              Github: <a href="https://github.com/NomanJafri/Flask_Blog" target="_blank"> Repo</a>
+            </p> 
+        </div>
+        <div class="project">
+          <h4>
+            <a href="/profile" target="_blank">Profile - NomanJafri.com</a>
+          </h4>
+          <p>
+            Flask, SQLAlchemy, Bootstrap, Jinja2 templates, Flask Mail.
+          </p>
+          <p>
+            Live: <a href="/profile" target="_blank">NomanJafri.com</a>
+          </p>
+      </div>
+    </div>
+    <div class="javascript-projects">
+      <h3>JavaScript - Projects</h3>
+      <div class="project">
+        <h4>
+          <a href="/drum_kit" target="_blank">Drum Kit</a> 
+        </h4>
+        <p>
+          Plain old JS with some music (Happy Drumming)
+
+        </p>
+        <p>
+          Live: <a href="/drum_kit" target="_blank"> Drum Kit </a><br>              
+
+        </p>     
+      </div>
+      <div class="project">
+          <h4>          
+            <a href="/dicee" target="_blank">Dicee</a> 
+          </h4>
+          <p>
+            keep refreshing winner changes on each refresh, JS
+
+          </p>
+          <p>
+            Live: <a href="/dicee" target="_blank">Dicee</a>
+          </p>
+        </div>
+        <div class="project">
+          <h4>
+            <a href="/dynamic_typing" target="_blank">Dynamic Typing</a>  
+          </h4>
+          <p>
+            React app, making use of hooks and controlled fields.  
+          </p>
+          <p>
+            Live: <a href="/dynamic_typing" target="_blank"> Dynamic Typing </a> 
+          </p>
+        </div>
+        <div class="project">
+          <h4>
+            <a href="/todo_list" target="_blank">ToDo List</a> 
+            
+          </h4>
+          <p>
+            React app, managing complexity  
+          </p>
+          <p>
+            Live: <a href="/todo_list" target="_blank">ToDo List</a>
+          </p>
+        </div>
+        <div class="project">
+          <h4>
+            <a href="/keeper_app" target="_blank">Keeper App</a>   
+          </h4>
+          <p>
+            React app, making sticky notes on your screen.  
+          </p>
+          <p>
+            Live: <a href="/keeper_app" target="_blank">Keeper App</a>  
+          </p>
+        </div>
+        <div class="project">
+          <h4>
+            <a href="https://github.com/NomanJafri/focustime" target="_blank">Focus Time</a>   
+          </h4>
+          <p>
+            React Native app, based on Pomodoro technique.  
+          </p>
+          <p>
+            Github: <a href="https://github.com/NomanJafri/focustime" target="_blank">Repo</a>
+          </p>
+        </div>
+        <div class="project">
+          <h4>
+            <a href="https://github.com/NomanJafri/MealsToGo" target="_blank">Meals To Go</a>
+          </h4>
+          <p>
+            React Native app, finding restaurants near your location and <br> checkout it's assumed menu!
+          </p>
+          <p>
+            Github: <a href="https://github.com/NomanJafri/MealsToGo" target="_blank">Rep</a>
+          </p>
+        </div>    
+      </div>
+      <div class="html-css-projects">
+        <h3>HTML5 & CSS3</h3>
+        <div class="project">
+          <h4>
+            <a href="/tindog" target="_blank">Tindo</a>           
+          </h4>
+          <p>
+            Plain HTML5 and CSS3  
+          </p>
+          <p>
+            Live: <a href="/tindog" target="_blank"> Tindog</a>
+          </p>
+        </div>
+      </div>    
+    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">   
+      <div>                 
+          <a href="https://uk.linkedin.com/in/NomanJafri" target="_blank"><img src="linkedin.svg" alt="LinkedIn Image Icon"></a>
+          
+          <a href="https://github.com/NomanJafri" target="_blank"><img src="github.svg" alt="Github Image Icon"></a>
+          
+          <a href="mailto:jafrinoman@yahoo.co.uk" target="_blank"><img src="envelope-regular.svg" alt="LinkedIn Image Icon"></a>     
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer">
+      <div>
+        <p>
+          This is made with 
+        </p>
+        <p> 
+        <img src="gratipay.svg" alt="heart Icon">
+        </p>
+        <p>
+          by Noman Jafri
+        </p>
+        <p><img src="copyright-solid.svg" alt="copyright-symbol">2024</p>
+      </div>
+    </section>
+
+    <script src="scripts.js"></script>
+
+  </body>
+</html>
